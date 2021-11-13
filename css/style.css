@@ -34,9 +34,11 @@ header{
     color: white;
     margin-right: 10px;
 }
-
 /* fine classi utility */
 
+
+
+/* classi parte superiore */
 .speaker{
     color:white;
     justify-content: right;
@@ -47,6 +49,10 @@ header{
     padding: 3px 3px;
     
 }
+/* fine parte superiore */
+
+
+/* schermata centrale */
 .screen{
     display: flex;
     width: 1200px;
@@ -61,11 +67,9 @@ header{
     padding-bottom: 10px; 
 }
 .img{
-    background-image: url(https://www.zingarate.com/pictures/2021/01/12/montagne-italiane.jpeg);
+    background-image: url(https://www.zingarate.com/pictures/2021/01/12/montagne-italiane.jpeg); 
     width: 100%;
     height: 100%;
-    margin-right: 5px;
-    margin-bottom: 10px;
     background-position: center;
     background-size: cover;
     position: relative;
@@ -78,6 +82,10 @@ header{
     left: 0;
     font-size: 12px;
 }
+/* fine parte centrale */
+
+
+/* navbar */
 nav{
     display: flex;
     width: 100%;
@@ -103,3 +111,4 @@ nav{
 .fa-share-square{
     color: #13e313;
 }
+/* fine navbar */
