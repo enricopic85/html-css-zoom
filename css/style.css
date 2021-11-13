@@ -17,6 +17,26 @@ header{
     width: 100%;
     justify-content: flex-end;
 }
+.icon-image{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.icon span{
+    color: white;
+    font-size: 12px;
+}
+.icon{
+     margin-right: 20px; 
+    padding-left: 5px;
+}
+.fa-angle-up{
+    color: white;
+    margin-right: 10px;
+}
+
+/* fine classi utility */
+
 .speaker{
     color:white;
     justify-content: right;
@@ -24,6 +44,7 @@ header{
     margin-right: 5px;
     border-radius: 3px;
     margin-top: 5px;
+    padding: 3px 3px;
     
 }
 .screen{
@@ -50,7 +71,7 @@ header{
     position: relative;
 }
 .pinco-pallo{
-    background-color: rgba(rgb(49, 45, 45), rgb(29, 31, 29), rgb(21, 21, 24), alpha);
+    background-color: rgba(rgb(49, 45, 45));
     color: white;
     position: absolute;
     bottom: 0;
@@ -68,23 +89,7 @@ nav{
     display: flex;
     align-items: center;
 }
-.icon-image{
-    color: white;
-    text-align: center;
-    font-size: 20px;
-}
-.icon span{
-    color: white;
-    font-size: 12px;
-}
-.icon{
-     margin-right: 20px; 
-    padding-left: 5px;
-}
-.fa-angle-up{
-    color: white;
-    margin-right: 10px;
-}
+
 .end-meeting{
     background-color: grey;
     height: 70px;
@@ -93,4 +98,8 @@ nav{
     text-align: center;
     color: red;
     font-size: 12px;
+    font-weight: 900;
+}
+.fa-share-square{
+    color: #13e313;
 }
