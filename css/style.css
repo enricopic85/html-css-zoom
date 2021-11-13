@@ -1,3 +1,4 @@
+/* classi utility */
 *{
     margin: 0;
     padding: 0;
@@ -75,7 +76,7 @@ header{
     position: relative;
 }
 .pinco-pallo{
-    background-color: rgba(rgb(49, 45, 45));
+    background-color: rgba(12, 7, 7, 0.2);
     color: white;
     position: absolute;
     bottom: 0;
